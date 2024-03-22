@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* header section start */
+
+header{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background: #131E3A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 125px;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+header ul li a{
+    font-weight: 600;
+}
+header ul li a.flight{
+    color: #f633ab;
+}
+header ul li a.Log{
+    color: #5B7B36;
+}
+/* header section end */
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 500px;
+    color: #000;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/beache.jpg);
+    background-size: 100%;
+    padding: 150px 80px;
+    position: relative;
+}
+.banner h1{
+    font-weight: normal;
+    font-size:50px;
+    position: absolute;
+}
+.banner h2{
+    top: 280px;
+    position: absolute;
+}
+.banner form{
+    width: 92%;
+    height: auto;
+    background: #5C327A;
+    position: absolute;
+    bottom: 50px;
+    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+}
+.banner form button {
+    width: 90px;
+    height: 30px;
+    background: #43215c;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+}
+.banner form button.active{
+    background: #FC2D48;
+    
+}
+.banner form label{
+    display: none;
+    
+}
+.banner form .searchform{
+    margin-top: 10px;
+}
+.banner form .searchform input,
+.banner form .searchform select{
+    height: 30px;
+    width: 180px;
+    margin-right: 20px;
+}
+.banner form button.smt{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    background: #FC2D48;
+    margin-top: 10px;
+}
+.banner form .info select{
+    height: 20px;
+    width: 85px;
+    color: #000;
+    margin-top: 10px;
+    background: #fff;
+}
+/* banner section end */
+/* fun section start */
+.fun{
+    width: 100%;
+    height: 300px;
+    padding: 50px 130px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../img/mountain.jpg);
+    background-size: 100% 100%;   
+}
+.fun h2{
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+.fun ul{
+    display: flex;
+    justify-content: space-between;
+}
+.fun ul li{
+    list-style: none;
+    width: 160px;
+    height: 150px;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding-top:10px;
+    background:rgba(0,0,0, 0.7);
+    margin-top: 10px;
+}
+/* fun section end */
+/* NEWSLETTERS section start */
+.subscribe{
+    width: 100%;
+    height: 350px;
+    color: #000;
+    background:linear-gradient(rgba(238, 117, 226, 0.6),rgba(238, 117, 226,0.6)) ,url(../img/areo.jpeg) no-repeat;
+    background-size: 100% 100%;
+}
+.subscribe h4{
+    padding-left:550px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.subscribe p{
+    padding-left:500px;
+    padding-bottom: 20px;
+}
+.subscribe form input[type="email"]{
+    margin-left: 450px;
+    padding-right: 400px;
+    border: 2px solid #000;
+    
+    height: 35px;
+}
+.subscribe label{
+    display: none;
+}
+.subscribe form input[type="submit"]{
+    height: 34px;
+    padding: 10px 30px;
+    text-align: center;
+    border: 2px solid #000;
+}
+/* NEWSLETTERS section end */
+/* Destination section start */
+    .destination{
+        width: 100%;
+        color: #fff;
+        height: auto;
+        padding: 50px 150px;
+        background: #20162f;
+    }
+    .destination ul{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 400px 450px;
+        grid-gap: 30px 40px;
+    }
+    .destination ul li{
+        border: 5px solid #fff;
+        border-radius: 5px;
+        list-style: none;
+        background: #fff;
+        text-align: center;
+    }
+    .destinationul ul li img{
+        width: 100%;
+    }
+    .destination ul li div.content{
+        color: #000;
+        padding: 20px;
+    }
+    div.content span{
+        color: #dd6d58;
+    }
+    div.content p{
+        margin-top: 10px;
+    }
+
+/* Destination section end */
+/* Estimate section start  */
+.estimate{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background-color: #664cad;
+    position: relative;
+}
+.estimate label{
+    display: none;
+}
+.estimate h2 {
+    text-align: left;
+    font-size: 50px;
+}
+.estimate h3{
+    color: #fff;
+    margin-bottom:20px;
+}
+.estimate img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 0px;
+    right: 0px;
+}
+.estimate form{
+    margin-top: 5px;
+    padding-left: 5px;
+}
+/*  Estimate section end  */
+ /* latest blog section start  */
+ .blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+ }
+ .blog h2{
+    color: #000;
+    margin-bottom: 10px;
+ }
+ .blog  h2+p{ 
+    text-align: center;
+    padding: 0px 200px;
+ }
+ .blog-content{
+    display: flex;
+    margin: 10px auto;
+    
+ }
+ .blog-content div{
+    padding: 10px;
+    display: flex;
+ }
+ .blog-content div div{
+    display: inline;
+ }
+ /* latest blog section end  */
+/* footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/footer.jpeg);
+
+}
+footer .topfoot , footer .bottomfooter{
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    color: #918e97;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+} 
+footer ul li a{
+    color: #918e97;
+}
+footer ul li a span{
+    color: #fff;
+    font-weight: 500;
+}
+footer .international div{
+    display: flex;
+    justify-content: space-between;
+}
+footer .international div .inter1{
+    margin-right: 50px;
+}
+footer .bottomfooter img{
+    width: 40px;
+    height: 60px;
+    padding-top: 20px;
+}
+footer .bottomfooter .footmenu ul li{
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+footer .bottomfooter .social ul li{
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+/* footer section end */
+/* media query start */
+@media screen and (max-width:1199px) {
+    header ,.banner,.fun,.subscribe,.destination,.estimate,.blog,.topfoot{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner form{
+        width: 86%;
+    }
+}
+/* media query end */

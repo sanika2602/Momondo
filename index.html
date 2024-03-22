@@ -1,0 +1,610 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Momondo- Make Your Travelling Easy</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <link rel="stylesheet" href="./assets/css/style.css">
+        </head>
+
+        <body>
+            <!--header section start  -->
+            <header>
+                <ul>
+                    <li>
+                        <a href="index.html" class="index">Momondo</a>
+                    </li>
+                    <li>
+                        <a href="#javascrpit:void()" class="flight">Flights</a>
+                    </li>
+                    <li>
+                        <a href="#javascrpit:void()">Hotels</a>
+                    </li>
+                    <li>
+                        <a href="#javascrpit:void()">Cire Hire</a>
+                    </li>
+                    <li>
+                        <a href="#javascrpit:void()">Trip Finder</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#javascrpit:void()">
+                            <i class="fa-brands fa-font-awesome"></i> English</a>
+                        </li>
+                    <li>
+                        <a href="#javascrpit:void()" class="Log">Log In</a>
+                    </li>
+                </ul>
+            </header>
+            <!--header section end  -->
+            <!-- banner section start -->
+
+            <section class="banner">
+                <main>
+                    <h1>"The best place to find<br>the cheapest airfares"</h1>
+                    <h2>-every single time</h2>
+                    <form>
+                        <div>
+                            <div class="switchbutton">
+                                <button type="button" class="active">
+                                    <i class="fa-solid fa-plane-departure"></i> Flights</button>
+                                <button type="button">
+                                    <i class="fa-solid fa-hotel"></i> Hotels</button>
+                                <button type="button">
+                                    <i class="fa-solid fa-car"></i> Cars</button>
+                            </div>
+                            <div class="searchform">
+                                <label for="origin-city">Origin-city</label>
+                                <input type="text" name="origin-city" id="origin-city" placeholder="Enter origin-city">
+                                <span><i class="fa-solid fa-arrow-right-arrow-left"
+                                        style="color: aqua;margin-right: 5px;"></i></span>
+                                <label for="Destination-city">Destination-city</label>
+                                <input type="text" name="Destination-city" id="Destination-city"
+                                    placeholder="Enter Destination-city">
+                                <label for="Travelling">Travelling</label>
+                                <input type="date" name="Travelling start-date" id="Travelling  start-date"
+                                    placeholder="Enter start-date">
+                                <label for="Travelling">Travelling</label>
+                                <input type="date" name="Travelling end-date" id="Travelling end-date"
+                                    placeholder="Enter end-date">
+                                <label for=" Select-Passanger">Travelling</label>
+                                <select name=" Select-Passanger" id=" Select-Passanger">
+                                    <option selected>Select Passanger</option>
+                                    <option value="1 pass">1 Passanger</option>
+                                    <option value="2 pass">2Passanger</option>
+                                    <option value="3 pass">3 Passanger</option>
+                                    <option value="4 pass">4 Passanger</option>
+                                    <option value="5 pass">5 Passanger</option>
+                                </select>
+                                <div>
+                                    <div class="info">
+                                        <i class="fa-solid fa-suitcase-rolling"></i>&nbsp;
+                                        Trip type:
+                                        <select name="Trip type" id="return">
+                                            <option selected>Select</option>
+                                            <option value="return">Return Trip</option>
+                                            <option value="Destination">Destination</option>
+                                        </select>
+                                        <i class="fa-solid fa-money-bill-wave"></i>
+                                        Ticket Class:
+                                        <select name="Ticket class" id="Ticket class">
+                                            <option selected>Select</option>
+                                            <option value="economy">Economy</option>
+                                            <option value="Business">Business</option>
+                                            <option value="first">First class</option>
+                                        </select>
+                                        <input type="checkbox" style="height: 10px; width: 10px;">Direct Flight Only
+                                        <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;">Include
+                                        Nearby Airport
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="smt">Search</button>
+                        </div>
+                    </form>
+                </main>
+            </section>
+            <!-- banner section end -->
+
+            <!-- fun section start -->
+            <section class="fun">
+                <h2>SOME FUN WE COVER</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-person-biking" style="height: 80px; width: 80px;"></i><br>
+                        <span class="dist">5670 M</span><br>CYCLING TRACK
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-route" style="height: 80px; width: 80px;"></i><br>
+                        <span class="dist">480 M</span><br>DISTANCE COVERED
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-person-hiking" style="height: 80px; width: 80px;"></i><br>
+                        <span class="dist">5670 M</span><br>ALTITUDE HIKED
+                    </li>
+                    <li> <i class="fa-solid fa-sailboat" style="height: 80px; width: 80px;"></i><br>
+                        <span class="dist">180 kM</span><br>SAILING DISTANCE
+                    </li>
+                </ul>
+            </section>
+            <!-- fun section end -->
+            <!-- NEWSLETTERS section start  -->
+            <section class="subscribe">
+                <h4>SUBSCRIBE FOR OUR TRAVEL NEWSLETTERS</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam voluptas eveniet quas illum dolore
+                    ipsam aliquam dolor voluptatum ab!ipsam aliquam dolor voluptatum ab!Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Fuga quibusdam voluptas eveniet quas illum dolore
+                    ipsam aliquam dolor voluptatum ab!ipsam aliquam dolor voluptatum ab!</p>
+                <form>
+                    <label for="newsemail">Email</label>
+                    <input type="email" name="email id" placeholder="Enter your email address....">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <!-- NEWSLETTERS section end -->
+            <!-- Destination section start -->
+            <section class="destination">
+                <h2>POPULAR DESTINATIONS</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img1.jpeg" width="235px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$222</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img2.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$333</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img3.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$444</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img4.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$555</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img5.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$666</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img6.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$777</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img7.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$888</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/img8.jpeg" width="235px" height="150px">
+                        </div>
+                        <div class="content">
+                            <h4>
+                                <span>$999</span> ipsum dolor sit amet consectetur adipisicing elit. Error esse, expedita
+                                inventore porro
+                                ratione voluptatum laudantium rem incidunt neque quos!
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vero voluptatum voluptates maiores
+                                libero sit at ut nisi accusamus quam.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- Destination section end -->
+            <!-- Estimate section start -->
+            <section class="estimate">
+                <h2>GET A QUICK ESTIMATE!</h2>
+                <h3>GET A PROFESSIONAL HELP</h3>
+                <form>
+                    <label for="purpose">purpose</label>
+                    <select name="purpose" id="purpose">
+                        <option value="travel">Travel</option>
+                        <option value="Business">Business</option>
+                        <option value="Medical">Medical</option>
+                        <option value="Sports">Sports</option>
+                    </select>
+
+                    <label for="tdate">Travel Date</label>
+                    <input type="date" name="date">
+                    <label for="purpose">purpose</label>
+                    <select name="purpose" id="purpose">
+                        <option value="travel">Travel</option>
+                        <option value="Business">Business</option>
+                        <option value="Medical">Medical</option>
+                        <option value="Sports">Sports</option>
+                    </select>
+                    <label for="email">Email</label>
+                    Email:
+                    <input type="email" name="email">
+                    <label for="calculate">Calculate now</label>
+                    <input type="submit" value="Calculate now">
+                </form>
+                <img src="./assets/img/rome.png">
+            </section>
+            <!-- Estimate section end -->
+            <!-- latest blog section start -->
+            <section class="blog">
+                <h2>LATEST BLOG</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus voluptas possimus rem vel
+                    praesentium qui facere, dicta, accusantium consequuntur molestiae deserunt quaerat repudiandae veritatis
+                    voluptatum dignissimos quos. Reprehenderit, consectetur!
+                </p>
+                <div class="blog-content">
+                    <div>
+                        <img src="./assets/img/blog1.jpeg" alt="blog1" height="200px" width="200px">
+                    <div>
+                        <p>Oct 15, 2023</p>
+                        <h3>10 Things to do before travel</h3>
+                        <hr size="5px" color="red" width="100">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, accusantium nostrum tempora nobis
+                            eligendi provident voluptate! Quae, corporis deleniti consequuntur possimus maxime ipsa commodi,
+                            earum dolores eos optio aspernatur vitae?
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/img/blog2.jpeg" alt="blog2" height="200px" width="200px">
+                <div>
+                    <p>Oct 20, 2023</p>
+                    <h3>10 Things to do before travel</h3>
+                    <hr size="5px" color="red" width="100">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, accusantium nostrum tempora nobis
+                        eligendi provident voluptate! Quae, corporis deleniti consequuntur possimus maxime ipsa commodi,
+                        earum dolores eos optio aspernatur vitae?
+                    </p>
+                </div>
+            </div>
+            </section>
+            <!-- latest blog section end -->
+            <!--footer section start -->
+            <footer>
+        <div class="topfoot">
+            <div class="country">
+                <h3>Top countries</h3>
+                <ul>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>India</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>United State</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a></li>
+                    <li>
+                        <a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+
+                    </li>
+                </ul>
+        </div>
+            <div class="city">
+            <h3>Top cities</h3>
+                <ul>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>India</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>United State</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a></li>
+                    <li>
+                        <a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+
+                    </li>
+                </ul>
+                </div>
+            <div class="international">
+                <h3>International sities</h3>
+            <div>
+                <ul class="inter1">
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>India</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>United State</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a></li>
+                    <li>
+                        <a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>India</span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-solid fa-globe"></i>
+                            Flights to <span>United State</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a></li>
+                    <li>
+                        <a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+                    </li>
+                    <li><a href="javascript:void()">
+                        <i class="fa-solid fa-globe"></i>
+                        Flights to <span>United Kingdom</span></a>
+
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="bottomfooter">
+                <div>
+                    <img src="./assets/img/flower.png" alt="logo">
+                </div>
+                <div class="footmenu">
+                    <ul>
+                        <li>
+                            <a href="">About us</a>
+                        </li>
+                        <li>
+                            <a href=""> Jobs</a>
+                        </li>
+                        <li>
+                            <a href="">Press</a>
+                        </li>
+                        <li>
+                            <a href="">Affiliate</a>
+                        </li>
+                        <li>
+                            <a href="">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="">Airlines</a>
+                        </li>
+                        <li>
+                            <a href="">Apps</a>
+                        </li>
+                        <li>
+                            <a href="">Help</a>
+                        </li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, numquam.
+                    </p>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="javascript:void()">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="javascript:void()">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                        <li>
+                            <a href="javascript:void()">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </footer>
+            <!--footer section end -->
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+            <script src="./assets/js/script.js"></script>
+        </body>
+      </html>
